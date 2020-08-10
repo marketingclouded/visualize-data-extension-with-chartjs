@@ -1,5 +1,5 @@
 /* Get Data Extension JSON */
-$.getJSON("YOUR JSON RESOURCE PAGE", function(json) {
+$.getJSON("https://pub.s1.exacttarget.com/4k253y120ic", function(json) {
     daily_obj_arr = json;
     var extended_timeline = [];
     for (var j = 0; j < daily_obj_arr.length; ++j) {
